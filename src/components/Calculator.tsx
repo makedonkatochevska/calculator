@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
+import { evaluate } from "mathjs";
 import style from "../App.module.css";
 import CalculatorDisplay from "./CalculatorDisplay";
 import Button from "./Button";
@@ -69,7 +70,7 @@ export default function Calculator() {
       }
 
       try {
-        const result = eval(value);
+        const result = evaluate(value);
         setValue(result.toString());
         setIsError(false);
         setIsResult(true);

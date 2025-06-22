@@ -50,7 +50,7 @@ The **Calculator App** is a responsive React + TypeScript project created with *
 
 Check out the live demo of this Calculator:
 
-👉 [Try Live Demo](https://i.imghippo.com/files/kLe9228jdU.png)
+👉 [Try Live Demo](https://react-calculator-makedonkat.netlify.app/)
 
 ---
 
